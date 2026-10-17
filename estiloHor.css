@@ -1,0 +1,11 @@
+table{
+    border-color:aqua ;
+    background: rgb(31, 91, 11);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+td{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}

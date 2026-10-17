@@ -1,0 +1,8 @@
+a{
+    text-decoration: none;
+    text-align: center;
+    box-shadow: #ffffff;
+}
+a:hover{
+    text-decoration: darkgreen;
+}

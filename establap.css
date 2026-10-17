@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.tabla-periodica {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(50px, 1fr));
+  gap: 3px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.elemento {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 4px 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 52px;
+  box-sizing: border-box;
+}
+
+.elemento span {
+  font-size: 9px;
+  text-align: left;
+  color: #333;
+}
+
+.elemento strong {
+  font-size: 15px;
+  display: block;
+}
+
+.elemento small {
+  font-size: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #222;
+}
+
+/* Colores por familia */
+.no-metal        { background-color: #a0e0a0; }
+.gas-noble        { background-color: #c0d0ff; }
+.alcalino         { background-color: #ffb3b3; }
+.alcalinoterreo   { background-color: #ffe0b3; }
+.metaloide        { background-color: #cccc99; }
+.halogeno         { background-color: #ffff99; }
+.transicion       { background-color: #f0c0d0; }
+.otros-metales    { background-color: #cccccc; }
+.lantanido        { background-color: #ffb3e6; }
+.actinido         { background-color: #e6b3ff; }

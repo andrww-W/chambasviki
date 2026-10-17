@@ -1,0 +1,18 @@
+   * {
+        color: aquamarine;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+    a {
+        text-decoration: none;
+}
+a:hover {
+    color: rgb(242, 7, 7);
+    font-size: 16pt;
+}
+
+
+    h1 {
+        color: black;
+}
+
